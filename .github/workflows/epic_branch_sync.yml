@@ -16,7 +16,7 @@ jobs:
 
       # after execution, two env variables should be set, MERGE_SUCCESS & MERGE_FAILURE
       - name: epic branch sync
-        uses:  bholland-bh/merge-branch@master
+        uses:  bholland-bh/merge-branch@testing
         with:
           type: now
           target_branch: ^epic/.*
